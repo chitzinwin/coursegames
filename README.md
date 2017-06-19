@@ -41,3 +41,9 @@ REST API.  Representational state transfer (REST) or RESTful Web services are on
 Instructors can display the current progress without the analysis buttons by removing "?analysis=true" from the URL:
 
     URL: https://apps.dataii.com/bb/coursegames/
+
+More about this software: https://szymonmachajewski.wordpress.com/?p=843course-gamification-tools-for-blackboard-learn-the-rest-of-the-story
+
+YouTube video: https://www.youtube.com/watch?v=tntUxfwo2rw
+
+Blackboard Community space: https://community.blackboard.com/groups/hackboard/projects/course-gamification-tools-for-blackboard-learn
