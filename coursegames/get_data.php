@@ -39,15 +39,18 @@ $user = $rest->readUser($access_token, "uuid:".$user_id);
 //die();
 $columns = $rest->readGradebookColumns($access_token, $course_id);
 $c=$columns->results;
+
+
 foreach($c as $row)
 {
-	if ($row->externalGrade == 1)
-	{
-	 $finalGradeName=$row->name;
-	 $finalGradeID=$row->id;
-	 $finalPossible=$row->score->possible;
-	 break;
-	}
+        //if ($row->externalGrade == 1)
+        if ($row->name == "Total")
+        {
+         $finalGradeName=$row->name;
+         $finalGradeID=$row->id;
+         $finalPossible=$row->score->possible;
+         break;
+        }
 }
 
 
@@ -59,7 +62,7 @@ $g=$grades->results;
 /*
 foreach($g as $row)
 {
-	echo "<br />".$row->userId . " " .$row->score." ouf of ".$finalPossible;
+        echo "<br />".$row->userId . " " .$row->score." ouf of ".$finalPossible;
 }
 */
 
