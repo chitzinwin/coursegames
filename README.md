@@ -12,7 +12,7 @@ Installation instructions for Blackboard Administrators
     Ensure your Blackboard Learn system has REST API enabled.
     Navigate to SysAdmin -> REST API Integrations
     Create Integration with Application ID:
-    b9c4b028-841e-42ae-bd99-6df6ce864f06
+    0adae04c-04de-43d4-8650-76bb16f44701
     Create or select an existing user with access to all course gradebooks.
     Navigate to SysAdmin -> Building Blocks -> LTI Tool Providers
     Select Register Provider Domain
